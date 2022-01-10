@@ -10,13 +10,15 @@
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/activity_navigation.xml" value="0.176" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/app_bar_navigation.xml" value="0.16486486486486487" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/content_navigation.xml" value="0.16486486486486487" />
-        <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_admin_home.xml" value="0.136" />
-        <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_admin_login.xml" value="0.16486486486486487" />
+        <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_admin_home.xml" value="0.152" />
+        <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_admin_login.xml" value="0.1" />
+        <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_edit_log.xml" value="0.2" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_gallery.xml" value="0.16486486486486487" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_home.xml" value="0.16486486486486487" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_resident_home.xml" value="0.136" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_resident_login.xml" value="0.1" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_slideshow.xml" value="0.16486486486486487" />
+        <entry key="..\:/Active/dwelling/app/src/main/res/layout/fragment_view_log.xml" value="0.152" />
         <entry key="..\:/Active/dwelling/app/src/main/res/layout/nav_header_navigation.xml" value="0.16486486486486487" />
         <entry key="..\:/Active/dwelling/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
       </map>

@@ -50,7 +50,8 @@
             app:destination="@id/cctvFragment" />
         <action
             android:id="@+id/action_residentHomeFragment2_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment" />
         <action
             android:id="@+id/action_residentHomeFragment2_to_viewLogFragment"
             app:destination="@id/viewLogFragment" />
@@ -73,7 +74,8 @@
             app:destination="@id/cctvFragment" />
         <action
             android:id="@+id/action_adminHomeFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/homeFragment" />
         <action
             android:id="@+id/action_adminHomeFragment_to_editLogFragment"
             app:destination="@id/editLogFragment" />
@@ -82,5 +84,12 @@
         android:id="@+id/editLogFragment"
         android:name="com.example.myapplication.EditLogFragment"
         android:label="fragment_edit_log"
-        tools:layout="@layout/fragment_edit_log" />
+        tools:layout="@layout/fragment_edit_log" >
+        <action
+            android:id="@+id/action_editLogFragment_to_viewLogFragment"
+            app:destination="@id/viewLogFragment" />
+        <action
+            android:id="@+id/action_editLogFragment_to_adminHomeFragment"
+            app:destination="@id/adminHomeFragment" />
+    </fragment>
 </navigation>
