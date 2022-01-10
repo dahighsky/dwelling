@@ -36,7 +36,7 @@ class AdminHomeFragment : Fragment() {
 
         binding.editLogButton.setOnClickListener(
             Navigation.createNavigateOnClickListener(R.id.action_adminHomeFragment_to_cctvFragment))
-
+//hello
 
 
         return binding.root
