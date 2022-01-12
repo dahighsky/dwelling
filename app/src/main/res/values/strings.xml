@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">dwelling.io</string>
     <string name="dwelling_io">dwelling.io</string>
     <string name="todo">TODO</string>
     <string name="log_in_to_your_dwelling_account"> at dwelling.io \n we aim to provide you with effective way to manage all the activities in your residential complex.</string>
