@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">dwelling.io</string>
     <string name="dwelling_io">dwelling.io</string>
     <string name="todo">TODO</string>
     <string name="log_in_to_your_dwelling_account"> at dwelling.io \n we aim to provide you with effective way to manage all the activities in your residential complex.</string>
@@ -114,5 +114,16 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <!-- TODO: Remove or change this placeholder text -->
+
+
+    <string name="title_activity_inout">INOUT</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_nav">Nav</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab_text_1">IN</string>
+    <string name="tab_text_2">OUT</string>
 </resources>
