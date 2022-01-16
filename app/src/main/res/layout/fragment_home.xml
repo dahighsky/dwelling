@@ -30,37 +30,43 @@
             android:id="@+id/logo"
             android:layout_width="155dp"
             android:layout_height="155dp"
-            android:layout_marginTop="172dp"
             android:contentDescription="@string/todo"
+            app:layout_constraintBottom_toTopOf="@+id/textView"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
             app:srcCompat="@drawable/logo" />
+
+        <Button
+            android:id="@+id/buttonResidentLogIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="36dp"
+            android:backgroundTint="#9E1414"
+            android:text="Log In to your dwelling Account"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.505"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="349dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
             android:layout_marginTop="24dp"
+            android:layout_marginEnd="16dp"
             android:text="@string/log_in_to_your_dwelling_account"
             android:textAlignment="center"
             android:textColorHighlight="#000000"
             android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/buttonResidentLogIn"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/logo" />
-
-        <Button
-            android:id="@+id/buttonResidentLogIn"
-            android:layout_width="319dp"
-            android:layout_height="60dp"
-            android:layout_marginTop="36dp"
-            android:backgroundTint="#9E1414"
-            android:text="Log In to your dwelling Account"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
 
         <Button
             android:id="@+id/buttonAdminLogIn"
