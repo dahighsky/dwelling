@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/homeFragment"
         android:name="com.example.myapplication.HomeFragment"
-        android:label="fragment_home"
+        android:label="@string/dwelling_io"
         tools:layout="@layout/fragment_home" >
         <action
             android:id="@+id/action_homeFragment_to_residentLoginFragment2"
@@ -20,7 +20,7 @@
     <fragment
         android:id="@+id/adminLoginFragment"
         android:name="com.example.myapplication.ui.login.AdminLoginFragment"
-        android:label="fragment_admin_login"
+        android:label="Admin LogIn"
         tools:layout="@layout/fragment_admin_login" >
         <action
             android:id="@+id/action_adminLoginFragment_to_adminHomeFragment"
@@ -29,7 +29,7 @@
     <fragment
             android:id="@+id/residentLoginFragment"
             android:name="com.example.myapplication.ui.login.ResidentLoginFragment"
-            android:label="fragment_resident_login"
+            android:label="Log In"
             tools:layout="@layout/fragment_resident_login">
             <action
                 android:id="@+id/action_residentLoginFragment_to_residentHomeFragment2"
@@ -38,12 +38,12 @@
     <fragment
             android:id="@+id/cctvFragment"
             android:name="com.example.myapplication.cctvFragment"
-            android:label="fragment_cctv"
+            android:label="CCTV"
             tools:layout="@layout/fragment_cctv" />
     <fragment
             android:id="@+id/residentHomeFragment2"
             android:name="com.example.myapplication.ResidentHomeFragment"
-            android:label="fragment_resident_home"
+            android:label="@string/dwelling_io"
             tools:layout="@layout/fragment_resident_home" >
         <action
             android:id="@+id/action_residentHomeFragment2_to_cctvFragment"
@@ -59,12 +59,12 @@
     <fragment
         android:id="@+id/viewLogFragment"
         android:name="com.example.myapplication.ViewLogFragment"
-        android:label="fragment_view_log"
+        android:label="Visitor Log"
         tools:layout="@layout/fragment_view_log" />
     <fragment
         android:id="@+id/adminHomeFragment"
         android:name="com.example.myapplication.AdminHomeFragment"
-        android:label="fragment_admin_home"
+        android:label="dwelling.io/Admin"
         tools:layout="@layout/fragment_admin_home" >
         <action
             android:id="@+id/action_adminHomeFragment_to_viewLogFragment"
@@ -83,7 +83,7 @@
     <fragment
         android:id="@+id/editLogFragment"
         android:name="com.example.myapplication.EditLogFragment"
-        android:label="fragment_edit_log"
+        android:label="Edit Visitor Log"
         tools:layout="@layout/fragment_edit_log" >
         <action
             android:id="@+id/action_editLogFragment_to_viewLogFragment"
